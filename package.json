@@ -1,0 +1,34 @@
+{
+  "name": "vlog",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "newpost": "node scripts/newPost.js"
+  },
+  "dependencies": {
+    "@gridsome/plugin-google-analytics": "^0.1.1",
+    "@gridsome/plugin-sitemap": "^0.3.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.0",
+    "cli": "^1.0.1",
+    "gridsome": "^0.7.15",
+    "gridsome-plugin-remark-prismjs-all": "^0.3.5",
+    "gridsome-plugin-remark-shiki": "^0.3.1",
+    "gridsome-plugin-rss": "^1.2.0",
+    "heroku": "^7.43.2",
+    "medium-zoom": "^1.0.5",
+    "node": "^14.11.0",
+    "vue-disqus": "^4.0.1",
+    "vue-parallaxy": "^1.1.1"
+  },
+  "devDependencies": {
+    "moment": "^2.26.0",
+    "node-sass": "^4.14.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "sass-loader": "^10.0.2",
+    "tailwindcss": "^1.4.6"
+  }
+}
